@@ -427,4 +427,18 @@
     margin: -30px 0 0 -386px;
     background: url(../Img/slider-arrow.png) -126px -137px #000 no-repeat;
 }			
-							
+	#banner_tabs:hover .flex-next {
+	    opacity: 0.4;
+	    filter: alpha(opacity=40);
+	}
+
+	#banner_tabs:hover .flex-prev {
+	    opacity: 0.4;
+	    filter: alpha(opacity=40);
+	}
+	
+	#banner_tabs:hover .flex-next:hover,
+	#banner_tabs:hover .flex-prev:hover {
+	    opacity: 0.6;
+	    filter: alpha(opacity=60);
+	}						
