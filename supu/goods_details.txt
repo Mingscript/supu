@@ -1,0 +1,34 @@
+[
+	{
+		"id":"#160701","url":"http://127.0.0.1:8020/supu/html/goods_details.html","imgres":
+			["../img/goods_details/goods/goods1_1.jpg","../img/goods_details/goods/goods1_2.jpg",
+			"../img/goods_details/goods/goods1_1b.jpg","../img/goods_details/goods/goods1_2b.jpg"
+			],
+		"title":" minimoto小米米 甜心气球系列秋冬对襟上衣粉红3-6个月","oldprice":"￥108","price":"68","color":["粉蓝","粉红"],
+		"chajia":"40元","activity":"../img/goods_details/hot_goods1.jpg","activity_title":"护舒宝 干爽贴身日用230mm卫生巾10片","activity_price":"￥6.98",
+		"bom_pho":["../img/goods_details/goods_details1.jpg","../img/goods_details/goods_details2.jpg","../img/goods_details/goods_details3.jpg"]
+	},
+	{
+		"id":"#160702","url":"http://127.0.0.1:8020/supu/html/goods_details.html","imgres":
+			["../img/goods_details/goods/goods3_1.jpg","../img/goods_details/goods/goods3_1.jpg",
+			"../img/goods_details/goods/goods3_1b.jpg","../img/goods_details/goods/goods3_1b.jpg"
+			],
+		"title":"  minimoto小米米 天使奇缘系列短袖开肩上衣浅粉绿3岁","oldprice":"￥38","price":"29","color":["粉红","粉蓝"],
+		"chajia":"9元","activity":"../img/goods_details/hot_goods3.jpg","activity_title":"好奇宝宝","activity_price":"￥0.8",
+		"bom_pho":["../img/goods_details/goods3_details1.jpg","../img/goods_details/goods3_details2.jpg","../img/goods_details/goods3_details3.jpg"]
+	},
+	
+	{
+		"id":"#160703","url":"http://127.0.0.1:8020/supu/html/goods_details.html","imgres":
+			["../img/goods_details/goods/goods2_1.jpg","../img/goods_details/goods/goods2_2.jpg",
+			"../img/goods_details/goods/goods2_1b.jpg","../img/goods_details/goods/goods2_2b.jpg"
+			],
+		"title":" minimoto小米米 小苹果系列短袖半开胸上衣粉黄1-2岁","oldprice":"￥78","price":"51","color":["粉红","粉黄"],
+		"chajia":"27元","activity":"../img/goods_details/hot_goods2.jpg","activity_title":"阿胶你值得拥有","activity_price":"￥888",
+		"bom_pho":["../img/goods_details/goods2_details1.jpg","../img/goods_details/goods2_details2.jpg","../img/goods_details/goods2_details3.jpg"]
+	},
+	
+	
+	
+	
+]

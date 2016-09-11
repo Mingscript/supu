@@ -1,0 +1,9 @@
+
+[{"src":"img/index/today_goods1.jpg","title":"宝噜噜 韩国原装进口葩朵纯净海域海苔橄榄油味15g","price":"￥4.9","old_price":"￥14"},
+{"src":"img/index/today_goods2.jpg","title":"VITABIOTICS薇塔 英国Osteocare液体钙镁锌200ml","price":"￥49","old_price":"￥108"},
+{"src":"img/index/today_goods3.jpg","title":"Munchkin麦肯奇 美国进口防漏宝宝零食杯紫色","price":"￥19","old_price":"￥68"},
+{"src":"img/index/today_goods4.jpg","title":"日康 动态按摩吸奶器RK-M1004","price":"￥69.9","old_price":"￥129"},
+{"src":"img/index/today_goods5.jpg","title":"阿兰贝尔 彩棉多功能婴儿垫78cm*41cm","price":"￥59","old_price":"￥138"},
+{"src":"img/index/today_goods6.jpg","title":"Salus Floradix iron铁元 德国孕妇补气补血调经养颜 500ml","price":"￥79","old_price":"￥288"},
+{"src":"img/index/today_goods7.jpg","title":"Heinz亨氏 金装智多多鸡汤营养面条336g","price":"￥9.9","old_price":"￥28.8"},
+{"src":"img/index/today_goods8.jpg","title":"Childlife童年时光 美国婴幼儿鱼油草莓味237ml","price":"￥59","old_price":"￥273"},]

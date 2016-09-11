@@ -1,0 +1,10 @@
+[{"src":"../img/goods_list/goods1.jpg","title":" minimoto小米米 甜心气球系列秋冬对襟上衣粉红3-6个月","zhekou":"6.3折/","price":"￥68","old_price":"￥108"},
+{"src":"../img/goods_list/goods2.jpg","title":"minimoto小米米 天使奇缘系列短袖半开胸上衣浅粉绿1-2岁","zhekou":"7.6折/","price":"￥29","old_price":"￥38"},
+{"src":"../img/goods_list/goods4.jpg","title":"minimoto小米米 音乐之声系列短袖半开胸上衣薄荷蓝6-12个月","zhekou":"6.3折/","price":"￥69.9","old_price":"￥129"},
+{"src":"../img/goods_list/goods3.jpg","title":"minimoto小米米 粉色憧憬系列短袖对襟上衣粉红1-2岁","zhekou":"6.9折/","price":"￥39.9","old_price":"￥58"},
+{"src":"../img/goods_list/goods4.jpg","title":"minimoto小米米 音乐之声系列短袖半开胸上衣薄荷蓝6-12个月","zhekou":"6.3折/","price":"￥69.9","old_price":"￥129"},
+{"src":"../img/goods_list/goods5.jpg","title":"CAIYINGFANG彩婴房 婴儿春秋纯彩棉上衣和尚服浅绿色52","zhekou":"3.1折/","price":"￥40","old_price":"￥128"},
+{"src":"../img/goods_list/goods6.jpg","title":"盛哲卡 全开扣上衣片印蓝色80","zhekou":"清仓特价/","price":"￥49","old_price":"￥79"},
+{"src":"../img/goods_list/goods4.jpg","title":"minimoto小米米 音乐之声系列短袖半开胸上衣薄荷蓝6-12个月","zhekou":"6.3折/","price":"￥69.9","old_price":"￥129"},
+{"src":"../img/goods_list/goods7.jpg","title":"minimoto小米米 粉色憧憬系列短袖对襟上衣粉红1-2岁","zhekou":"6.4折","price":"￥56","old_price":"￥88"},
+{"src":"../img/goods_list/goods8.jpg","title":"minimoto小米米 仲夏假期背心黄色1-2岁","zhekou":"6.1折","price":"￥51","old_price":"￥83"},]

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>欢迎登录</title>
+		<link href="../img/index/tubiao.ico"  rel="icon"/>
+   		<link href="../img/index/tubiao.ico"  rel="shortcut icon"/>
+   		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+   		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<a href="../index.html"><img src="../img/login/loginlogo.jpg"/></a>
+			<span>欢迎登录</span>
+		</div>
+		<div class="login_content">
+			<div class="login_form">
+				<h4 class="vip_login">会员登录</h4>
+				<span>没有速普账号？<a class="click_register" href="#">立即注册</a></span>
+				<form name="login">
+					<i class="iconfont icon_1">&#xe607;</i><input type="text" id="account_login" name="username" class="user login_input" value="" placeholder="邮箱、手机号、账号" >
+					<i class="iconfont icon_2">&#xe61b;</i><input type="password" id="password_login" name="userpassword" class="password login_input" placeholder="密码" >
+					<div class="form_test">
+						<div class="test_drag"></div>
+						<span class="text">拖动滑块拖动到最右边</span>
+					</div>
+					<label class="lab_user"><input type="checkbox" class="rem_user" />记住用户名</label>
+					<label class="lab_auto"><input type="checkbox" checked="checked" class="auto_login"/>自动登录</label>
+					<em class="forget_pass">忘记密码了？</em>
+					<input type="button" class="form_sub" value="登录" />
+					<div class="error_tips"></div>
+				</form>
+				<div class="partner">
+					合作账户登录 ：<i class="iconfont2">&#xe60c;</i><i class="iconfont3">&#xe61e;</i>
+				</div>
+			</div>
+			<div class="register_form">
+				<h4 class="vip_login">用户注册</h4>
+				<span>已有账号？<a class="click_login" href="#">立即登录</a></span>
+				<form name="register">
+					<i class="iconfont icon_1">&#xe607;</i><input type="text" id="account" name="username" class="user zhu_email login_input" placeholder="邮箱、手机号" >
+					<i class="iconfont icon_2">&#xe61b;</i><input type="password" id="password" name="userpassword" class="password zhu_pas login_input" placeholder="6-16位字符，必须包含英文字母和数字" maxlength="16">			
+					<i class="iconfont4">&#xe61c;</i><input type="text" class="yanz yan_1 login_input" placeholder="输入验证码" >
+					<img class="code" src="http://www.supumall.com/login/verifycode/id/1.html?0.5132637145442331" onclick="this.src='http://www.supumall.com/login/verifycode/id/1.html?'+Math.random()" />
+					<input class="phone_btn" type="button" value="获取验证码" />
+					<i class="iconfont5">&#xe62a;</i><input type="text" class="phone_yanz login_input" placeholder="输入手机验证码" >
+					<label class="lab_agree"><input type="checkbox" checked="checked" class="auto_login lagree"/> 我已阅读并同意<a  href="#">《速普商城用户协议》</a></label>
+					<input type="button" class="register_sub" value="注册" />
+					<div class="error_tips"></div>
+				</form>
+				
+			</div>
+		</div>
+		<div class="forget_meng"></div>
+		<div class="find_form">
+				<h4 class="vip_login" style="margin-bottom: 5px;">找回密码</h4>
+				<i class="iconfont icon_1" style="top:73px;">&#xe607;</i><input  type="text" id="account" name="username" class="user login_input" placeholder="邮箱或手机号" >
+				<i class="iconfont4" style="top:128px;">&#xe61c;</i><input type="text" class="yanz login_input" placeholder="输入验证码" >
+				<img class="code" style="top:121px;" src="http://www.supumall.com/login/verifycode/id/1.html?0.5132637145442331" onclick="this.src='http://www.supumall.com/login/verifycode/id/1.html?'+Math.random()" />
+				<input class="phone_btn" style="top:172px;" type="button" value="获取验证码" />
+				<i class="iconfont5" style="top:181px;">&#xe62a;</i><input type="text" class="phone_yanz login_input" placeholder="输入手机验证码" >
+				<input type="button" style="top:245px;" class="register_sub" value="注册" />
+				<div class="step">
+					<i class="first_step">第一步 ：验证用户 √</i>
+					<i class="middle" style="color: #444;">&gt;</i>
+					<i class="second_step">第二步 ：修改完成 √</i>
+				</div>
+				<div class="find_close"></div>
+		</div>
+		<div class="supuy_info_box">
+        <div>Copyright © 速普商城 2010-2016 All Right Reseved 鲁 ICP 证 09059644 号</div>
+        <div class="zizhi">
+           <img src=" ../img/index/zhizhao.png" alt="营业执照公示"/></a>   
+           <img src=" ../img/index/cnnic.png" alt="营业执照公示"/></a> 
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
+
+	<script type="text/javascript" src="../js/login.js"></script>
+	</body>
+</html>

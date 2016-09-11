@@ -1,0 +1,16 @@
+/*隐藏菜单*/
+.cateMenu{
+	display: none;
+}
+.navCon-cate:hover .cateMenu{
+	display: inline-block;
+}
+
+.imgc img {
+	display: block;
+    position: relative;
+    width: 1911px;
+    left: 50%;
+    margin-left: -960px;
+    overflow: hidden;
+}

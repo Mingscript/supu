@@ -1,0 +1,244 @@
+/*隐藏菜单*/
+.cateMenu{
+	display: none;
+}
+.navCon-cate:hover .cateMenu{
+	display: inline-block;
+}
+
+.imgc img {
+	display: block;
+    position: relative;
+    width: 1911px;
+    left: 50%;
+    margin-left: -960px;
+    overflow: hidden;
+}
+body{
+	background: #F3F3F3;
+}
+.location{
+	padding:16px
+}
+/*列表左侧*/
+.goods_left{
+	width: 165px;
+    padding: 10px 20px;
+    text-align: center;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+    float: left;
+    
+}
+	.goods_left_list1{
+		border-bottom: 3px solid #e5e5e5;
+	    text-align: left;
+	    font-size: 14px;
+	    font-weight: bold;
+	    
+	}
+	.goods_left ul{
+		margin-bottom: 10px;
+	}
+	.goods_left em{
+		display: inline-block;
+	    border-bottom: 3px solid #e5004b;
+	    margin-bottom: -3px;
+	}
+		.goods_left li{
+			padding: 8px 0;
+			font-size: 12px;
+			font-weight: normal;
+			text-align: center;	
+			cursor: pointer;
+		}
+		.goods_left li:hover{
+			color: #E5004A;
+		}
+/*列表右侧*/
+.goods_right{
+	width: 985px;
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+
+}
+	.make,.goods_order{
+		padding-left: 15px;
+		width: 985px;
+		background: #fff;
+	}
+	.make{
+		height:50px;
+		margin-bottom: 3px;
+	}
+	.goods_order{
+		height:36px;
+		float: left;
+	}
+	.make li,.goods_order li{
+		float: left;
+	    padding: 10px 32px 10px 0;
+	    display: block;
+	    line-height: 30px;
+	}
+	.make li:hover,.goods_order li:hover{
+		color: #E5004A;
+		cursor: pointer;
+	}
+	.goods_order li{
+		line-height: 18px;
+		font-size: 12px;
+	}
+	.goods_buy{
+		width:985px;
+		overflow: hidden;
+	}
+	.goods_buy ul{
+		width:1100px;
+	}
+	.goods_buy:after,.goods_buy ul:after{
+		content: ".";
+		display: block;
+		clear: both;
+		height: 0;
+		text-align: left;
+	}
+	
+	.goods_buy li{
+		width:201px;
+		height:397px;
+		background: #fff;
+		border:3px solid #fff;
+		padding:0 16px;
+		margin:10px 10px 0 0;
+		float: left;
+	}
+	.goods_buy li img{
+		width:200px;
+		height:200px;
+	}
+	.goods_buy li:hover{
+		transition: border 1s;
+		border:3px solid #E5004A;
+	}
+	.goods_buy li:hover .add_car_{
+		background: #E5004A;
+		color:#fff;
+	}
+		.goods_buy dt{
+			height:200px;
+			padding: 40px 0px 20px 0px;	
+		}
+		.selling_point a{
+			height:53px;	
+		}
+		.selling_point i{
+			font-size: 15px;
+			color: #E5004A;
+			font-weight: bold;
+		}
+		.selling_price {
+			margin-top:5px;
+			font-size: 17px;
+			color: #E5004A;
+			font-weight: bold;
+		}
+			.selling_price span{
+				font-size: 12px;
+				color: #a2a2a2;
+				text-decoration: line-through;
+				font-weight: normal;
+				margin-left: 3px;
+			}
+		.add_goods{
+			width:41px;
+			height:30px;
+			position: relative;
+			margin-top: 13px;
+		}
+			.add_goods input{
+				width:30px;
+				height:30px;
+				padding-left: 11px;
+			}
+			.add_top,.add_bom{
+				width:11px;
+				height:14px;
+				background: #EAEAEA;
+				text-align: center;
+				line-height: 14px;
+				display: block;
+				position: absolute;
+				right: -2px;
+				cursor: pointer;
+			}
+			.add_top:hover,.add_bom:hover{
+				color:#E5004A;
+			}
+			.add_top{
+				top:2px;
+			}
+			.add_bom{
+				top:18px;
+			}
+			.add_car{
+				position: relative;
+			}
+			.add_car_{
+				width:110px;
+				height:34px;
+				background:rgb(246, 246, 246);
+				color: rgb(51, 51, 51);
+				border: 1px solid #EAEAEA;
+				font-family: "微软雅黑";
+				outline: none;
+				position: absolute;
+				top:0px;
+				left: 49px;
+			}
+			
+			.keep_goods{
+				width:42px;
+				height:34px;
+				border: 1px solid #EAEAEA;
+				background:rgb(246, 246, 246);
+				position: absolute;
+				top:0px; 
+				right: -4px;		
+				color: #666;		
+			}
+			.keep_goods:hover{
+				color: #E5004A;
+			}
+.page{
+	padding: 20px 0;
+}
+.page ul{
+	float: right;
+}
+.page ul:after,.page:after{
+	content: ".";
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.page li{
+	display: block;
+    float: left;
+    color: #005AA0;
+    margin-right: 5px;
+    border: 1px solid #cccccc;
+    padding: 0px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+	.page li:hover{
+		background: #E5004A;
+		color: #fff;
+	}
+	
+	.page ul .active{
+		border-color: #fff;
+		color: #ccc;
+	}
