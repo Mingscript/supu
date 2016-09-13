@@ -384,7 +384,6 @@
 		/*下部分*/
 	.goods_bom{
 		padding:0px  0px 100px 0px;
-		padding-bottom:0px;
 		margin-top: 10px;
 	}
 	.goods_bom:after,.goods_classify ul:after{

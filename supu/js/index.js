@@ -42,7 +42,7 @@ $(function(){
 		
 		$.ajax({
 			type:"get",
-			url:"today_goods.txt",
+			url:"txt/today_goods.txt",
 			async:true,
 			success:function(data){
 				var data=eval(data);
@@ -136,7 +136,13 @@ $(function(){
 		move2()
 		timer2 = setInterval(move2,3000)
 	})
-
+	//图片缩放
+	$(".floor_left img").hover(function(){
+		$(this).animate({"width":"430px","height":"470px"})	
+	},
+	function(){
+		$(this).animate({"width":"400px","height":"441px"})
+	})
 
 		
 	//搜索框

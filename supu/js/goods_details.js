@@ -30,7 +30,7 @@ $(function(){
 	})
 	$.ajax({
 		type:"get",
-		url:"../diqu.txt",
+		url:"../txt/diqu.txt",
 		async:true,
 		success:function(data){
 			var data = eval(data);	
@@ -127,7 +127,7 @@ $(function(){
 var num = window.location.hash
 	$.ajax({
 		type:"get",
-		url:"../goods_details.txt",
+		url:"../txt/goods_details.txt",
 		async:true,
 		success:function(data){
 			var data = eval(data);
@@ -136,6 +136,7 @@ var num = window.location.hash
 					break;	
 				}
 			}
+			$("title").text(data[i].title);//主标题
 			$(".location span").text(data[i].title);  //标题
 			$(".activity em").text(data[i].title);		//右边标题
 			$(".supu_price b").text(data[i].price);		//老价钱

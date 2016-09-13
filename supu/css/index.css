@@ -1,4 +1,3 @@
-
 .li_box a span,
 .search_icon,.cart_small b,
 .navCon-cate-title,.first_menu a .icon_1,
@@ -1111,9 +1110,7 @@
     border-left: 1px solid #e8e8e8;
 }
 
-.floor_left img {
-    max-width: 100%;
-}
+
 .floor_nav{
     width: 200px;
     height: 424px;

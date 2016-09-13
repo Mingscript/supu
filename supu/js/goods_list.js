@@ -16,7 +16,7 @@ $(function(){
 
 	$.ajax({
 		type:"get",
-		url:"../goods_list.txt",
+		url:"../txt/goods_list.txt",
 		async:true,
 		success:function(data){
 			var data = eval(data);
