@@ -1251,3 +1251,15 @@
 			
 		}
 
+		/*搜索框*/
+		.search_list11{
+			width:449px;
+			min-height:100px;
+			height: auto !important;
+			height: 100px;
+			position: absolute;
+			background: #FFF;
+			top:40px;
+			left:30px;
+			display: none;
+		}

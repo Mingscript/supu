@@ -146,4 +146,80 @@ $(function(){
 
 		
 	//搜索框
+	$(function () {
+	var
+		oSeachBox	  = $('#searchinfo'),
+		oSeachContent = $('#search_text'),
+		oSearchList   = $('#search_list11'),
+		iSearchIndex  = -1,
+		sOriHtml 	  = oSearchList.html();
+	oSeachContent.focus(function () {
+		oSeachContent.attr("value","")
+		oSearchList.css('display', 'block');
+	}).blur(function () {
+		oSearchList.css('display', 'none');
+	}).keyup(function (ev) {
+		var
+			ev = ev || window.event,
+			aLi = $('#search_list11 li');
+		if(ev.keyCode === 38 || ev.keyCode === 40) {
+			if(ev.keyCode === 38 && iSearchIndex > 0) {
+				iSearchIndex--;
+			} else if(ev.keyCode === 40 && iSearchIndex < aLi.length - 1) {
+				iSearchIndex++;
+			}
+		}
+	}).bind('input propertychange', function () {
+		var sSearchCon = $(this).val();
+		if(sSearchCon) {
+			$.ajax({
+				url: 'http://www.gou.com/search/getkey.do',
+				data: {
+					q: sSearchCon,
+				},
+				type:'GET',
+				jsonp: 'jsoncallback',
+				dataType: 'jsonp',
+				success: function (str) {
+					var sHtml = '';
+					sHtml = str.Content;
+					sHtml+="<li>"+sSearchCon+"</li>"
+					if(sHtml) {
+						oSearchList.css('display', 'block').html(sHtml);
+					} else {
+						oSearchList.css('display', 'none');
+					}
+					iSearchIndex = -1;
+				}
+			});
+		} else {
+			oSearchList.html(sOriHtml);
+			iSearchIndex = -1;
+		}
+	});
+	
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
+
+
